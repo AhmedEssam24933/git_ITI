@@ -1,0 +1,36 @@
+git init
+git status
+git add index.html css/ or git add --all
+git commit -m "{message name}"
+To show who make a commit
+git log or git log --oneline 
+to change user name 
+$ git config --global user.name "AhmedEssam"
+to change email 
+$ git config --global user.email "AhmedEssam****"
+to show change use
+$ git show 
+to compare between two commits use 
+$ git diff firstcommit secondcommit
+to return specific branch use
+$ git checkout branch-id
+to show all branches in the project use
+$ git branch
+then 
+$ git remote add origin https://github.com/AhmedEssam24933/firstrepo.git
+$ git push origin master
+to pull from remote to local use
+$ git pull origin master
+to show all remote
+$ git remote -v
+$ to remove remote use
+$ git remote rm "name"
+to remove use
+$ git revert id
+to return before reverting use
+$ git reset id or $ git reset --mixed id / return to working area
+$ git reset --soft id / return to staging area
+to remove commit completely use
+$ git reset --hard id
+to download use
+$ git clone "link"
